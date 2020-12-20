@@ -30,6 +30,7 @@ class LZWCodec:
     def __init__(self):
         pass
     
+    #lzw encode
     def encode_LZW(self,data):
         size = 16
         maximum_table_size = pow(2,int(size))
