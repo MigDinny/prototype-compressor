@@ -28,6 +28,7 @@ Example on the command line: python main.py
 
 3 - Enjoy the output. Check if any file was outputted and created (probably).
 
+4- This works!
 
 Any problem/question/suggestion?
 
