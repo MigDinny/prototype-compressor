@@ -21,8 +21,8 @@ class PredictiveTransform:
     def __init__(self):
         pass
 
-    # Encodes the function f[i] -= f[i-1], i>=1 horizontally
     def horizontalEncode(self, image):
+        # Encodes the function f[i] -= f[i-1], i>=1 horizontally
         image2 = np.copy(image)
         image2 = image2.astype("int16")
         height, length = image2.shape
