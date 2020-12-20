@@ -117,7 +117,7 @@ class PredictiveTransform:
             vertical (boolean): if True it encodes using a vertical predictive encoder. Default: False, encodes horizontaly
 
         Returns:
-            (2D array): encoded data
+            2D array: encoded data
         """
         if (vertical):
             encoded_data = self.verticalEncode(data)
@@ -139,7 +139,7 @@ class PredictiveTransform:
             vertical (boolean): if True it encodes using a vertical predictive encoder. Default: False, encodes horizontaly
 
         Returns:
-            (2D array): decoded data
+            2D array: decoded data
         """
         if (vertical):
             decoded_data = self.verticalDecode(data)
