@@ -44,10 +44,10 @@ class LZWCodec:
         Encodes a given data using LZW.
 
         Parameters:
-            data (one-dimensional array): the data to be encoded
+            data (array): the data to be encoded
 
         Returns:
-            compressed_data: LZW encoded data
+            array: LZW encoded data
         """
 
         #initialize dictionary and defines max size
@@ -132,11 +132,11 @@ class LZWCodec:
         Decodes a given data using LZW.
 
         Parameters:
-            data (one-dimensional array): the data to be decoded
+            data (array): the data to be decoded
             size (int): 2^size is the max size of the dictionary
 
         Returns:
-            compressed_data: LZW decoded data
+            array: LZW decoded data
         """
         
         #initialize dictionary and defines max size
@@ -221,3 +221,4 @@ class LZWCodec:
 
         #save image
         imageio.imwrite(fileout, image_data)
+        
