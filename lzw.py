@@ -115,7 +115,7 @@ class LZWCodec:
 
         while (strPoint < len(data1D)):
             #encodes the chunk with LZW
-            comp = np.array(self.encode_LZW(data1D[strPoint:endPoint]))
+            comp = np.array(self.encode_LZW(data1D[strPoint:endPoint]), dtype = np.uint16)
             compressed_data = np.append(compressed_data, comp)
 
             strPoint = endPoint
