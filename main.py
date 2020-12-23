@@ -96,7 +96,7 @@ if __name__ == '__main__':
     """
 
     t1 = time.time()
-    codecRLEHUFF.encode("data/original/zebra.bmp", "data/egg.rlehuff", "data/zebra-RLEHUFF.json", vertical=True)
+    codecRLEHUFF.encode("data/original/zebra.bmp", "data/zebra.rlehuff", "data/zebra-RLEHUFF.json", vertical=True)
     print("Encoder time elapsed: ", time.time() - t1)
     
     t1 = time.time() 
@@ -110,7 +110,7 @@ if __name__ == '__main__':
     """
 
     t1 = time.time()
-    codecLZW.encode("data/original/zebra.bmp", "data/zebra.lzw", 50000, vertical=True)
+    codecLZW.encode("data/original/zebra.bmp", "data/zebra.lzw", vertical=True)
     print("Encoder time elapsed: ", time.time() - t1)
 
     t1 = time.time()
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     """
 
     t1 = time.time()
-    codecRLEHUFF.encode("data/original/landscape.bmp", "data/egg.rlehuff", "data/landscape-RLEHUFF.json", vertical=True)
+    codecRLEHUFF.encode("data/original/landscape.bmp", "data/landscape.rlehuff", "data/landscape-RLEHUFF.json", vertical=True)
     print("Encoder time elapsed: ", time.time() - t1)
     
     t1 = time.time() 
