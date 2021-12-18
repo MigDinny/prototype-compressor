@@ -1,4 +1,4 @@
-This software is easy to use!!!
+This project is not meant to be contributed to or used. Made in an academic context.
 
 Steps:
 
